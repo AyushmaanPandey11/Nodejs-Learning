@@ -1,0 +1,15 @@
+{
+  "name": "superhero",
+  "version": "1.0.0",
+  "description": "Learning to Use Npm ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Ayushmaan Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "superheroes": "^3.0.0"
+  }
+}
