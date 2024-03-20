@@ -24,7 +24,7 @@ let users = [
   { id: 2, name: "Jack", color: "powderblue" },
 ];
 
-async function checkVisisted() {
+const checkVisisted =   async () =>  {
   const result = await db.query(
     "SELECT country_code FROM visited_countries JOIN users ON users.id= user_id WHERE user_id = $1;",
     [currentUserId]);
